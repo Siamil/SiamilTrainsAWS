@@ -1,22 +1,5 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- @Siamil Sign out
-1
-7 10 microservices-aspnetcore/hello-world
- Code  Issues 1  Pull requests 0  Projects 0  Wiki  Insights
-hello-world/wercker.yml
-ae69a7d  on 11 Jan 2018
-@autodidaddict autodidaddict Update wercker.yml
-@chrisumbel @autodidaddict
-     
-31 lines (30 sloc)  738 Bytes
-box: microsoft/dotnet:1.1.1-sdk
+box: microsoft/dotnet:2.2.101-sdk
 no-response-timeout: 10
 build:
   steps:    
