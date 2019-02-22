@@ -22,8 +22,8 @@ cd $WERCKER_OUTPUT_DIR/app
 deploy:
 steps:
 - internal/docker-push:
-username: $Siamil
-password: $kamilxd14
+username: $USERNAME
+password: $PASSWORD
 repository: SiamilTrainsAWS
 registry: https://registry.hub.docker.com
 entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
