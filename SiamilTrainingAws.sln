@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiamilTrainingAws", "SiamilTrainingAws\SiamilTrainingAws.csproj", "{9A394119-BEFD-4B09-A39A-E44CF9149CDB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambdaApi", "AWSLambdaApi\AWSLambdaApi.csproj", "{12316103-CB54-41C0-AE7E-9B198C67A3B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambdaApi.Tests", "AWSLambdaApi.Tests\AWSLambdaApi.Tests.csproj", "{EBB6E94A-01E0-4891-8784-96AC5BD298EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9A394119-BEFD-4B09-A39A-E44CF9149CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A394119-BEFD-4B09-A39A-E44CF9149CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A394119-BEFD-4B09-A39A-E44CF9149CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12316103-CB54-41C0-AE7E-9B198C67A3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12316103-CB54-41C0-AE7E-9B198C67A3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12316103-CB54-41C0-AE7E-9B198C67A3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12316103-CB54-41C0-AE7E-9B198C67A3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB6E94A-01E0-4891-8784-96AC5BD298EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB6E94A-01E0-4891-8784-96AC5BD298EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB6E94A-01E0-4891-8784-96AC5BD298EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB6E94A-01E0-4891-8784-96AC5BD298EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
